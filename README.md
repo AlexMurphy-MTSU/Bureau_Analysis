@@ -5,5 +5,5 @@ This project works in tandem with the Tennessee Bureau of Investigation (TBI) to
 
 ### Specific Project Goals and Tasks
 <ul>
-    <li>Prepare Data and Analyze for **When** DV occurs</li>
+    <li>Prepare Data and Analyze for <em>When</em> DV occurs</li>
 </ul>
