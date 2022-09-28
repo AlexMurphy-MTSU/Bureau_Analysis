@@ -48,9 +48,9 @@ The strongest emergent insights into when DV is occurring from the data are when
 
 ### Limitations and Areas for Development
 
---Talk about reporting issue (dates issues as well as inconsistency in reporting addresses oer mart 2)
---Arguement for Normality (tables and histograms of seasonal data)
---Development: Refactor key notebooks to be executable .py scripts for automation of future projects.
---Development: Use more specialized visualization libraries (perhaps Leaflet) for a more detailed heatmap rendering of TN's counties.
---Development: Bring data from previous years into the context of the DV project in order to create preliminary ML models of changes in rates of DV as influenced by Covid-19 or other factors. 
+--Talk about reporting issue (dates issues as well as inconsistency in reporting addresses oer mart 2)<br>
+--Arguement for Normality (tables and histograms of seasonal data)<br>
+--Development: Refactor key notebooks to be executable .py scripts for automation of future projects.<br>
+--Development: Use more specialized visualization libraries (perhaps Leaflet) for a more detailed heatmap rendering of TN's counties.<br>
+--Development: Bring data from previous years into the context of the DV project in order to create preliminary ML models of changes in rates of DV as influenced by Covid-19 or other factors.<br>
 --Development: Work with TBI to bring greater context to similar projects to better understand the impact of Covid-19 on other crimes to determine if there is a specific "Covid" effect.
