@@ -24,4 +24,33 @@ This project works in tandem with the Tennessee Bureau of Investigation (TBI) to
         <li>Analysis: Utilized Plotly and Pandas for Python to analyze and visualize data.</li>
         <li>Statistics: Utlized Shapiro-Wilcox and Kolmogorov-Smirnov tests to justify which statistical tests were apporpriate to use during analysis.</li>
     </ul>
+    <li>Prepare Data and Analyze for <strong><em><u>Where</u> DV occurs</em></strong> </li>
+    <ul>
+        <li>Goal: Visualize and Analyze the distribution of DV instances per county for the state of TN for 2020. (1) Investigate whether there are any regions or counties that have significantly different rates of DV than the rest of the state. (2) Compare DV rates and police officer numbers in order to provide client insights as to staffing or training needs that might exist relative to density of DV rates.</li>
+        <li>ETL: The process matches above. One key limitation that arose during feature selection/creation was reporting inconsistencies which prevented a deeper analysis of the geography of DV instances. Analysis was limited to the county-level for this project.</li>
+        <li>Analysis: Utilized Plotly Express for pie chart visuals and MS Excel for the county-by-county heatmap.</li>
+</li>
+    </ul>
+    <li>Prepare Data for Collaborator's Modeling</li>
+    <ul>
+        <li>This portion of the project consisted entirely of ETL processing. I compiled data from a dozen files provided by the TBI vendors. I created functions to automate the cleaning of these many files as I compiled them into specific ready-to-load csv files.</li>
+    </ul>
 </ul>
+
+### Notable Trends
+
+<strong><em>The When</em></strong><br>
+The strongest emergent insights into when DV is occurring from the data are when the DV instances occur throughout the year, and when they occur throughout the day. <br>
+!['Distribution of DV Instances per month'](Visuals/DA_Monthly_by_Day.png)
+"Time-series of hour of day"
+"Boxplot of months" vs "seasons" (include radial histogram)
+"Pie charts" (pop) vs "Heatmaps"
+
+### Limitations and Areas for Development
+
+--Talk about reporting issue (dates issues as well as inconsistency in reporting addresses oer mart 2)
+--Arguement for Normality (tables and histograms of seasonal data)
+--Development: Refactor key notebooks to be executable .py scripts for automation of future projects.
+--Development: Use more specialized visualization libraries (perhaps Leaflet) for a more detailed heatmap rendering of TN's counties.
+--Development: Bring data from previous years into the context of the DV project in order to create preliminary ML models of changes in rates of DV as influenced by Covid-19 or other factors. 
+--Development: Work with TBI to bring greater context to similar projects to better understand the impact of Covid-19 on other crimes to determine if there is a specific "Covid" effect.
